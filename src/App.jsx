@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import reactLogo from './assets/goose_logo_new.svg';
-import viteLogo from './assets/SmartBunny Logo.svg';
+import gooseLogo from './assets/goose_logo_new.svg';
+import smartbunnyLogo from './assets/SmartBunny Logo.svg';
 import './App.css';
 
 function App() {
@@ -15,21 +15,13 @@ function App() {
       </nav>
       <div>
         <a href="https://www.gooseinsurance.com/en-us/" target="_blank" rel="noopener noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+          <img src={smartbunnyLogo} className="logo smartbunny" alt="SmartBunny logo" />
         </a>
         <a href="https://www.gooseinsurance.com/en-ca/" target="_blank" rel="noopener noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={gooseLogo} className="logo Goose" alt="Goose logo" />
         </a>
       </div>
       <h1>Goose</h1>
-      <div className="card">
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Goose and SmartBunny logos to learn more
-      </p>
     </>
   );
 }

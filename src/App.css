@@ -17,10 +17,15 @@
   background-color: #FF69B4;
 }
 
+.home-title {
+  color: black;
+}
 
 .nav-button {
-  margin-right: 1rem; /* Adjust margin as needed */
-  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  margin-right: 1rem;
+  /* Adjust margin as needed */
+  padding: 0.5rem 1rem;
+  /* Adjust padding as needed */
   background-color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -57,4 +62,3 @@
 .card {
   padding: 2em;
 }
-

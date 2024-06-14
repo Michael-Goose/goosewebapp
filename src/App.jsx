@@ -1,15 +1,16 @@
-import { useState } from 'react';
 import gooseLogo from './assets/goose_logo_new.svg';
 import smartbunnyLogo from './assets/SmartBunny Logo.svg';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
 
+  // TODO: Pull this out into a separate component.
   return (
     <>
       <nav className="navbar">
-        <button className="nav-button" onClick={() => window.location.href = '/'}>
+        <button className="nav-button" onClick={() => {
+          window.location.href = '/home'
+        }}>
           Home
         </button>
       </nav>
